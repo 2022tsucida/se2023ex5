@@ -2,6 +2,10 @@
 
 int main(void) {
   char str[] = "hello world";
-  for (int i = 0; i < 5; i++) printf("Hello World , %s", str);
+  int i = 0;
+  while (i < 5) {
+    printf("Hello World , %s", str);
+    i++;
+  }
   return 0;
 }
